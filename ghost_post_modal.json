@@ -1,0 +1,83 @@
+{
+  "type": 9,
+  "data": {
+    "custom_id": "ghost_post",
+    "title": "Ghost Post",
+    "components": [
+      {
+        "type": 18,
+        "label": "Origin Radius",
+        "component": {
+          "type": 3,
+          "custom_id": "origin_radius",
+          "placeholder": "Choose...",
+          "options": [
+            {
+              "label": "25",
+              "value": "25"
+            },
+            {
+              "label": "50",
+              "value": "50"
+            },
+            {
+              "label": "100",
+              "value": "100"
+            },
+            {
+              "label": "150",
+              "value": "150"
+            },
+            {
+              "label": "200",
+              "value": "200"
+            }
+          ]
+        }
+      },
+      {
+        "type": 18,
+        "label": "Destination Radius",
+        "component": {
+          "type": 3,
+          "custom_id": "destination_radius",
+          "placeholder": "Choose...",
+          "options": [
+            {
+              "label": "25",
+              "value": "25"
+            },
+            {
+              "label": "50",
+              "value": "50"
+            },
+            {
+              "label": "100",
+              "value": "100"
+            },
+            {
+              "label": "150",
+              "value": "150"
+            },
+            {
+              "label": "200",
+              "value": "200"
+            }
+          ]
+        }
+      },
+      {
+        "type": 18,
+        "label": "Number of ghost posts per load:",
+        "component": {
+          "type": 4,
+          "custom_id": "post_quantity",
+          "style": 2,
+          "min_length": 1,
+          "max_length": 9,
+          "required": true
+        }
+      }
+    ]
+  }
+}
